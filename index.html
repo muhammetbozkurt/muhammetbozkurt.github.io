@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammet Bozkurt — iOS Games</title>
+<meta name="description" content="Small iOS games by Muhammet Bozkurt: Don't Tap the Ladybug and Free Fall: Pose Dive.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --text: #12224d;
+    --muted: #4a5a80;
+    --accent: #2f7fd6;
+    --card: #eef5fd;
+    --rule: #d5e2f3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #08122e;
+      --text: #e8eefb;
+      --muted: #a5b4d6;
+      --accent: #7fb8f5;
+      --card: #15244f;
+      --rule: #243e80;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 0 0 6px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin-bottom: 32px; }
+  .app {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 12px; }
+  .store {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 999px;
+  }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Muhammet Bozkurt</h1>
+  <p class="meta">Small, quick-to-learn games for iPhone.</p>
+
+  <section class="app">
+    <h2>Don't Tap the Ladybug</h2>
+    <p>A pure reflex arcade game built on one rule you will break anyway: never tap the ladybug.</p>
+    <div class="links">
+      <a class="store" href="https://apps.apple.com/app/id6819065524">App Store</a>
+      <a href="ladybug/support.html">Support</a>
+      <a href="ladybug/privacy.html">Privacy Policy</a>
+    </div>
+  </section>
+
+  <section class="app">
+    <h2>Free Fall: Pose Dive</h2>
+    <p>Walls rise toward your skydiver. Tap the pose that fits the hole before the wall arrives, and see how deep you can fall.</p>
+    <div class="links">
+      <a class="store" href="https://apps.apple.com/app/id6818610083">App Store</a>
+      <a href="skyfall/support.html">Support</a>
+      <a href="skyfall/privacy.html">Privacy Policy</a>
+    </div>
+  </section>
+
+  <footer>Contact: <a href="mailto:bozkurt15@itu.edu.tr">bozkurt15@itu.edu.tr</a></footer>
+</main>
+</body>
+</html>
